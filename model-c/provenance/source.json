@@ -1,0 +1,50 @@
+{
+  "source_commit": "74e62e85302662a7a558c19c6bb6fce5aec20b15",
+  "transformations": [
+    "Namespace-only absolute import renaming to possession_c.",
+    "Omit training-only initialization helpers after SegmentPossession.",
+    "Omit unused constrained decoder."
+  ],
+  "files": [
+    {
+      "file": "model.py",
+      "original_sha256": "ca4b40d4d95ff7ac900e2b1a23753efe4a2eecb57ecca16eaaafdcec5dc63795",
+      "release_sha256": "ca4b40d4d95ff7ac900e2b1a23753efe4a2eecb57ecca16eaaafdcec5dc63795"
+    },
+    {
+      "file": "relational.py",
+      "original_sha256": "938a80b1928b2bc4e6ff2636299e10fb32caa14caa1c972179a9fa9de61228b6",
+      "release_sha256": "5f31a1e67c3f798dcc548dbac1ffa8d9fcf0a110527e20c266c5154bf2a55210"
+    },
+    {
+      "file": "tracking.py",
+      "original_sha256": "85dfdcf2a2f31328e180bbe65fffb5862314d103b16c9c496cefad7900465ccb",
+      "release_sha256": "85dfdcf2a2f31328e180bbe65fffb5862314d103b16c9c496cefad7900465ccb"
+    },
+    {
+      "file": "segments.py",
+      "original_sha256": "e5686c7631c59d4e61985ab4953299467f389ac341dcd9e12084a6f79626d077",
+      "release_sha256": "5fc31a9a93e84b8b0b2ede4dc039757fa0ba9165fc22b64aa3c8e4b429650e92"
+    },
+    {
+      "file": "schema.py",
+      "original_sha256": "fb67e74243a45e6dd76eb69c39efc0f0fb13dea0bfb42ab0e090cd53d3bf5b28",
+      "release_sha256": "fb67e74243a45e6dd76eb69c39efc0f0fb13dea0bfb42ab0e090cd53d3bf5b28"
+    },
+    {
+      "file": "windows.py",
+      "original_sha256": "6ce79ab8a3322bdbb0e37e4d9d7490d62c5c693b22d726c2985fea4d0feff201",
+      "release_sha256": "6ce79ab8a3322bdbb0e37e4d9d7490d62c5c693b22d726c2985fea4d0feff201"
+    },
+    {
+      "file": "decode.py",
+      "original_sha256": "b3b6f0a80282aa3799aafeb4b5bf570db1173fd7f8dec498200f3bdb79d32f95",
+      "release_sha256": "13c9117b9ce97951be780d5ae3ec2c7934392104f66bd8582aa2391d50a26fab"
+    },
+    {
+      "file": "io/tactical.py",
+      "original_sha256": "b6b05f74b0998465e89ff17610d98b0fbba9284737a8aff35e3a4ef202424d20",
+      "release_sha256": "ed14d16ec557b2f48a1a6c53c5e01e17a1a6f3fe57cbc5209d95a19b71269527"
+    }
+  ]
+}

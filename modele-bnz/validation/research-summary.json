@@ -1,0 +1,185 @@
+{
+  "schema": "bnz-research-presentation-v1",
+  "date": "2026-11-16",
+  "retained_model": "published two-network H/A/D reference",
+  "interpretation": "These are retrospective development results of the specified pipelines, not target scores or independent validation.",
+  "cohort": {
+    "development_matches": 6,
+    "folds": 3,
+    "conditions_per_match": 3,
+    "paired_cases": 18,
+    "posthoc_reused_development": true,
+    "independent_validation": false
+  },
+  "complete_HA_comparison": {
+    "frozen-reference": {
+      "spell_f1": 0.6931876482551138,
+      "macro_f1": 0.9250318285745777,
+      "dead_f1": 0.9785869963902485
+    },
+    "C-complete": {
+      "spell_f1": 0.6931633513724533,
+      "macro_f1": 0.9284496304043128,
+      "dead_f1": 0.9814144104165545
+    },
+    "HA-default": {
+      "spell_f1": 0.6889904884182072,
+      "macro_f1": 0.928017035096627,
+      "dead_f1": 0.981355673031032
+    },
+    "HA-soft": {
+      "spell_f1": 0.6875442717821627,
+      "macro_f1": 0.9269827593753841,
+      "dead_f1": 0.9800923889829798
+    },
+    "HA-player-D": {
+      "spell_f1": 0.6016125785288414,
+      "macro_f1": 0.8682954844426235,
+      "dead_f1": 0.9110807667335743
+    }
+  },
+  "conditional_HA_calibration": {
+    "HA-fixed": {
+      "spell_f1_mean": 0.6889904884182072,
+      "proper": {
+        "nll": 0.282544039014406,
+        "brier": 0.0675662924902812,
+        "accuracy": 0.9135164320720496,
+        "auc": 0.9699647346509663,
+        "ece10": 0.03763846943557784,
+        "mean_confidence": 0.9496394088303265,
+        "frames_repeated": 1403367
+      }
+    },
+    "HA-NLL-calibrated": {
+      "spell_f1_mean": 0.6880926173240838,
+      "proper": {
+        "nll": 0.22085047149241768,
+        "brier": 0.06536470932429156,
+        "accuracy": 0.9135164320720496,
+        "auc": 0.9699647346509663,
+        "ece10": 0.015665989348410833,
+        "mean_confidence": 0.9088604054604306,
+        "frames_repeated": 1403367
+      }
+    }
+  },
+  "calibration_selected_temperatures": {
+    "0": {
+      "NLL": 2.0,
+      "Spell": 2.0
+    },
+    "1": {
+      "NLL": 2.0,
+      "Spell": 2.0
+    },
+    "2": {
+      "NLL": 2.0,
+      "Spell": 1.0
+    }
+  },
+  "direct_decoding": {
+    "HA-fixed": {
+      "spell_f1_mean": 0.6889904884182072,
+      "macro_f1": 0.928017035096627,
+      "dead_f1": 0.981355673031032,
+      "short": {
+        "true": 4971,
+        "matched": 2372,
+        "recall": 0.4771675719171193
+      },
+      "predicted_short": {
+        "predicted": 3400,
+        "matched": 2323,
+        "all_predicted_spells": 6531,
+        "precision": 0.683235294117647
+      }
+    },
+    "HA-argmax": {
+      "spell_f1_mean": 0.47311284166666046,
+      "macro_f1": 0.9257667222546656,
+      "dead_f1": 0.9806492455585156,
+      "short": {
+        "true": 4971,
+        "matched": 2518,
+        "recall": 0.5065379199356266
+      },
+      "predicted_short": {
+        "predicted": 11976,
+        "matched": 2558,
+        "all_predicted_spells": 15006,
+        "precision": 0.2135938543754175
+      }
+    },
+    "HA-direct-fixed": {
+      "spell_f1_mean": 0.1540754309138995,
+      "macro_f1": 0.5853755980420651,
+      "dead_f1": 0.7387983636661326,
+      "short": {
+        "true": 4971,
+        "matched": 376,
+        "recall": 0.0756387044860189
+      },
+      "predicted_short": {
+        "predicted": 1435,
+        "matched": 360,
+        "all_predicted_spells": 2315,
+        "precision": 0.2508710801393728
+      }
+    }
+  },
+  "direct_decoding_selected": {
+    "0": {
+      "C": {
+        "kind": "viterbi",
+        "threshold": null
+      },
+      "HA": {
+        "kind": "viterbi",
+        "threshold": null
+      }
+    },
+    "1": {
+      "C": {
+        "kind": "viterbi",
+        "threshold": null
+      },
+      "HA": {
+        "kind": "viterbi",
+        "threshold": null
+      }
+    },
+    "2": {
+      "C": {
+        "kind": "viterbi",
+        "threshold": null
+      },
+      "HA": {
+        "kind": "viterbi",
+        "threshold": null
+      }
+    }
+  },
+  "direct_decoding_is_joint_HAD": true,
+  "direct_decoding_is_paper_reproduction": false,
+  "source_aggregate_sha256": {
+    "complete_HA_comparison": "7fb5c56a3ee83fbf5826abd2573650897128444674a8a0133a611e9e9b4ad523",
+    "HA_calibration": "502c79951f8bc135541e80287a8854cbb980b1b9d3787dd14511effad6a01fc7",
+    "direct_decoding": "4392b5e5fe84cc37b296dad776afeece52fac4aa44a597c7674d3bdc1a926e79",
+    "trajectory_analysis": "718e1e243d0f3ef6404f9a505605f24cac11fa3de7d84685dd619d54ceb18980",
+    "head_swap_analysis": "fcf41078da96fd6be3189eb49d363f900c3629ae12fa767940f38e9aaac4772f",
+    "decoder_analysis": "e457472f53c67c65a361aa37906c41fc7dab9c97ed2838ad168fe4beac6c4382"
+  },
+  "privacy": {
+    "private_arrays_or_coordinates_included": false,
+    "weights_of_research_models_included": false
+  },
+  "limitations": [
+    "Scores use historical fold-excluding evaluation weights, not the shipped final all6 weights evaluated on their training matches.",
+    "Three corruptions per match are correlated; recent fits use one seed.",
+    "Architecture, initialization, training split and objectives differ between recipes; no single-cause training ablation is established.",
+    "The direct vote and argmax study is on frozen joint H/A/D evidence, not a same-D H/A-only control or an evaluation of a newly trained architecture.",
+    "GT-short recall and predicted-short precision use different populations and must not be combined into one short-F1.",
+    "Current publication adds documentation and aggregate evidence only, with no new fit, inference or cluster job."
+  ]
+}

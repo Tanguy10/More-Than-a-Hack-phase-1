@@ -1,0 +1,15 @@
+# Independent English-release review
+
+**Content approved for integration on main; not ready for public submission.** 73 checks cover the staged tree `ba5ad75f628de52b27a88be2a7e8348cbfd5cd70`. The teammate source is preserved from the main parent; 13 legacy Python files change explanatory/UI strings only. All 3 notebooks retain their source cells and metadata, with 7 inherited outputs removed. The retained model, both checkpoints and frozen CSV are unchanged.
+
+The review covers 21 Markdown documents, 89 text files and 88 local links. Official metric code, runner and validator match revision `f8f2629ff1e0985f81d7e59d8413678514ee1530`. All seven root instruction documents now match that revision. The technical report distinguishes all-six final weights from fold-excluding development evaluation, gives external label provenance and quantities, and retains the posthoc and metric limitations. The 24-test CPU receipt passes; no model test or full inference was rerun for this review.
+
+The recorded unmodified official public runner reports Spell F1 **0.54634146** and macro F1 **0.73520059** on **7500 graded frames / 17 public possessions**, with bootstrap 0. This is a frozen-output pipeline check, not the private score or the approximately 0.69319 development result, and it was not used for model selection.
+
+Resolved findings: historical root rules were updated to the official revision; an unsupported precise deadline attribution was removed; current notebook output excerpts were cleared without changing code. All 51 current model checksum entries match. Current names and blob bytes contain none of the requested removed content.
+
+**Submission conditions remain:** verify anonymous access to a public reproducible code URL and resolve historical data exposure before opening the existing repository. The release QA records HTTP 404; my independent request failed at the network/tool level, so I do not independently confirm that status. Older commits still contain the inherited notebook outputs. A clean source snapshot without `.git` can support a fresh checked publication; current-tree cleanup is not a history purge. Do not change repository visibility blindly.
+
+The team must confirm its registered name, latest organiser deadline and form, validate the exact renamed CSV and complete the form itself. After adding this review, regenerate checksums, rescan the final tree and verify that the merge commit retains both parents. No cluster connection, training, inference, visibility change or submission is performed by this review. Exact artifact hashes are in `english-release-review-2026-11-17.json`.
+
+Requirements: [official submission instructions](https://github.com/metrica-sports/more-than-a-hack-2027/blob/f8f2629ff1e0985f81d7e59d8413678514ee1530/SUBMISSION.md), [rules](https://github.com/metrica-sports/more-than-a-hack-2027/blob/f8f2629ff1e0985f81d7e59d8413678514ee1530/RULES.md), [evaluation specification](https://github.com/metrica-sports/more-than-a-hack-2027/blob/f8f2629ff1e0985f81d7e59d8413678514ee1530/EVALUATION.md).

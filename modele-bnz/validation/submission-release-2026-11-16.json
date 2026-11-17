@@ -1,0 +1,47 @@
+{
+  "schema": "bnz-submission-release-checks-v1",
+  "checked_at_utc": "2026-11-16T11:46:41.273103+00:00",
+  "base_bnZ_commit": "397fca404ec32934b2f239107c5221e62e374d50",
+  "main_observed_unchanged_commit": "b13cb9bd918fe1fb37a2540b9fae06dc5ffe89a2",
+  "local_cpu_tests": {
+    "tests": 24,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "local_environment": {
+    "python": "3.12.10",
+    "platform": "Windows",
+    "packages": {
+      "torch": "2.6.0+cpu",
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "numba": "0.68.0",
+      "pandas": "3.1.0",
+      "pytest": "9.1.1"
+    }
+  },
+  "official_format_validation": {
+    "valid": true,
+    "rows": 199319,
+    "sha256": "ce852ffba08ec128edc2021d3e559138cc1b2b9bc4a6c3c6ea05b7a2952ac769"
+  },
+  "native_clock_and_X_ranges_checked": true,
+  "label_counts": {
+    "A": 38243,
+    "D": 63293,
+    "H": 57321,
+    "X": 40462
+  },
+  "weight_hashes_verified": true,
+  "historical_inference_source_files_verified": 9,
+  "runtime_weights_and_CSV_unchanged": true,
+  "previous_independent_full_CPU_reproductions": 2,
+  "new_full_match_inference_run": false,
+  "new_training_run": false,
+  "new_Slurm_job_submitted": false,
+  "notes": [
+    "Current checks validate integrity and format, not quality on the target match.",
+    "Historical full CPU reproductions are recorded in validation/report.json; no new full inference is claimed."
+  ]
+}

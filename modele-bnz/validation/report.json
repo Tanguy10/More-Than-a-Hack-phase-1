@@ -1,0 +1,59 @@
+{
+  "csv_sha256": "ce852ffba08ec128edc2021d3e559138cc1b2b9bc4a6c3c6ea05b7a2952ac769",
+  "rows": 199319,
+  "official_validator_passed": true,
+  "original_predictions_preserved": true,
+  "independent_cpu_files_identical": true,
+  "model_parameters_unchanged": true,
+  "model_parameter_sha256": {
+    "set-temporal": "02b090c6e9e69d791fc186d7f8db04d3aa83ef0fe4007b84aafa52fb79890130",
+    "relational-temporal": "25ce99e49d433c586b623b541807abfbca4a82cc9f43ab9fec5fe1eea50d14ed"
+  },
+  "cpu_tests": {
+    "tests": 24,
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0
+  },
+  "inference_source_sha256": {
+    "schema": "fb67e74243a45e6dd76eb69c39efc0f0fb13dea0bfb42ab0e090cd53d3bf5b28",
+    "windows": "6ce79ab8a3322bdbb0e37e4d9d7490d62c5c693b22d726c2985fea4d0feff201",
+    "model": "9b926fadd80aa2179d7eadbdd643a2694c9799e6b7c660e4d4445f3f5b49cf0e",
+    "relational": "73c1a8d77434bfc88979eb1f2701b7702a3c5f947d79dad3288ba967de55c5e7",
+    "inference": "3110801bf623fbee45694bce5f58840ea90e04106a9029c9b581e9d15a2ba251",
+    "pipeline": "ad4516eda4ed459a7029093935bc51e17755d962cc406168f4cd299c2f0dc81d",
+    "io.tactical": "b6b05f74b0998465e89ff17610d98b0fbba9284737a8aff35e3a4ef202424d20",
+    "submission": "4038e8662e023490620a8a18ea9847b94172fca6bf93cf21496722e07e7da8df",
+    "cli": "56df85561471dd72f250a2f5483353368172a1903f9c069fa9306e20ea5a21ed"
+  },
+  "runtimes": [
+    {
+      "installation": "installed",
+      "python": "3.12.10",
+      "torch": "2.6.0+cpu",
+      "numpy": "2.5.4",
+      "platform": "Linux",
+      "device": "cpu",
+      "precision": "float64",
+      "threads": 4,
+      "elapsed_seconds": 274.2016031309904
+    },
+    {
+      "installation": "source",
+      "python": "3.12.10",
+      "torch": "2.6.0+cu124",
+      "numpy": "2.5.4",
+      "platform": "Linux",
+      "device": "cpu",
+      "precision": "float64",
+      "threads": 4,
+      "elapsed_seconds": 274.26958049800305
+    }
+  ],
+  "package_build_verified": true,
+  "final_installed_inference_sources_match_reproduced_sources": true,
+  "packaged_official_files_verified": 4,
+  "cli_help_passed": true,
+  "cli_submission_validation_passed": true,
+  "style_checks_passed": true
+}

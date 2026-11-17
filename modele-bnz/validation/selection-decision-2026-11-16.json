@@ -1,0 +1,34 @@
+{
+  "schema": "bnz-reference-selection-v1",
+  "date": "2026-11-16",
+  "retained_reference": true,
+  "allows_promotion_of_research_candidates": false,
+  "primary_metric": "official mean possession Spell F1 over IoU0.3,0.4,0.5,0.6,0.7",
+  "historical_reference_spell": 0.69312,
+  "rechecked_reference_spell": 0.6931876482551138,
+  "completed_HA_comparison": {
+    "C_complete": 0.6931633513724533,
+    "HA_without_LightGBM": 0.6889904884182072,
+    "HA_soft_primary": 0.6875442717821627,
+    "HA_only_LightGBM_D": 0.6016125785288414
+  },
+  "original_primary_gates": {
+    "case": false,
+    "dead": true,
+    "each_condition": false,
+    "macro": true,
+    "match": false,
+    "positive_matches": false,
+    "short": false,
+    "spell_gain": false
+  },
+  "original_summary_sha256": "7fb5c56a3ee83fbf5826abd2573650897128444674a8a0133a611e9e9b4ad523",
+  "original_independent_results_review_sha256": "1e6aaa80acdd51ee304283e2044b2b75604f6e3e8b2bc789343d3cdb846f96f0",
+  "limitations": [
+    "Development matches reused for selection; not independent validation.",
+    "Three conditions per match are correlated.",
+    "Shipped final weights train on all6 allowed development matches; evaluation uses separate historical fold-excluding weights.",
+    "No target ground truth or target quality score used in this decision.",
+    "No new Slurm allocation, model fit or full inference was run for this handoff."
+  ]
+}

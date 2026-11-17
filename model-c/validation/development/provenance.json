@@ -1,0 +1,13 @@
+{
+  "files": {
+    "per_match.csv": "07beea01e45359e9b2f5bbf1eb02de47d009b81a41101c3108a00309bf80b5b4",
+    "per_condition.csv": "184811e24a7e725ca67ad372f1de0b76a35dab12c9cf90f762cefc899d402dcf",
+    "all_18_cases.csv": "9907a9c6fce6cc82ce7da45d80ba6d3b5c630adee1f182ae23438f57c3a033b7",
+    "overall.csv": "2e2bc639292c8bf4139c556a66aa04341b0bd0780b6b919348fc078f5acd5704"
+  },
+  "source_summary_sha256": "55ce2d66532a9aa9b9d131421462b8d47c87498cbf4062e84e937bce9b6bdfc8",
+  "metric": "Official Spell F1 mean over temporal IoU .3/.4/.5/.6/.7; macro and D F1 are secondary.",
+  "design": "Three held-out historical folds; six IDSSE matches, each in clean/medium/severe conditions; 18 cases per model.",
+  "delivered_weights": "C uses the complete frozen fold-0 pair, not an all-six refit. Other C folds are evaluation artifacts and are not shipped.",
+  "limits": "Repeatedly reused development matches; correlated conditions; latest check uses one seed. No independent final validation, paired significance or private target score is claimed."
+}

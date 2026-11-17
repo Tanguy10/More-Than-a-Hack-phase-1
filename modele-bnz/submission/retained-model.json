@@ -1,0 +1,61 @@
+{
+  "schema": "bnz-retained-reference-v1",
+  "decision": "retain independently checked published reference",
+  "reference_model_commit": "63c24b40190a5c010423d3ada827940dff7dc3dc",
+  "delivery_base_bnZ_commit": "397fca404ec32934b2f239107c5221e62e374d50",
+  "code_repository": "https://github.com/Tanguy10/More-Than-a-Hack-phase-1/tree/main",
+  "target_quality_measured": false,
+  "partial_training_checkpoints_included": false,
+  "architecture": "set-temporal + relational-temporal, joint H/A/D, Viterbi",
+  "csv": {
+    "path": "possession.csv",
+    "sha256": "ce852ffba08ec128edc2021d3e559138cc1b2b9bc4a6c3c6ea05b7a2952ac769",
+    "rows": 199319,
+    "frame_start": 0,
+    "frame_end": 199318,
+    "counts": {
+      "A": 38243,
+      "D": 63293,
+      "H": 57321,
+      "X": 40462
+    },
+    "active_intervals_half_open": [
+      [
+        11185,
+        90652
+      ],
+      [
+        110808,
+        190198
+      ]
+    ],
+    "outside_X_frames": 40462
+  },
+  "weight_files_sha256": {
+    "set-temporal.pt": "1c864ab10728e797297cf7659f8a23e87564aa13cea52ce6d49da410e98f57fc",
+    "relational-temporal.pt": "61d1e98e8036d36af17894d60db7177b352c23e70d51662a9894ce1f38b58ddd"
+  },
+  "parameter_sha256": {
+    "set-temporal": "02b090c6e9e69d791fc186d7f8db04d3aa83ef0fe4007b84aafa52fb79890130",
+    "relational-temporal": "25ce99e49d433c586b623b541807abfbca4a82cc9f43ab9fec5fe1eea50d14ed"
+  },
+  "parameter_counts": {
+    "set-temporal": 858380,
+    "relational-temporal": 925600
+  },
+  "decoder": {
+    "temperature": 6,
+    "change_penalty": 2,
+    "boundary_weight": 0.5
+  },
+  "reference_numerical_policy": {
+    "device": "cpu",
+    "precision": "float64",
+    "threads": 4,
+    "batch_size": 1,
+    "evidence_round_decimals": 9
+  },
+  "weights_manifest_sha256": "833573aec9fe309bbb779b355ae597192db7a3653b0e607cde591523071cfe6a",
+  "historical_reproduction_report_sha256": "ebb92c5d5914961fe8c4fe4c5ecc07903f634609ce260baa4edbe5d1cc68e642",
+  "submission_note": "Copy/rename the CSV without rewriting it; this record is an integrity manifest, not a contest score."
+}

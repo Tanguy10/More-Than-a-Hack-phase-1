@@ -1,0 +1,8 @@
+{
+  "repository": "https://github.com/SkillCorner/opendata",
+  "revision": "4340d274572876239c154c90bc507a9b3250a656",
+  "license": "MIT",
+  "credit": "SkillCorner and PySport",
+  "usage": "External broadcast observations and automatic live-team labels for research; raw data excluded from this repository",
+  "license_sha256": "3384cc66ffd008209759af5e6328677eabded72756fb1f56f4f82e68e9b3c6eb"
+}

@@ -1,0 +1,38 @@
+{
+  "complete": true,
+  "comparison": "Exact keys, dtype, shape and torch.equal on every tensor/buffer; config equality; both file hashes verified first.",
+  "verifier_sha256": "123085cfc160039b105a9276f35b69c1b2b8b00ca9980349cee6e48d0d37f004",
+  "resources": {
+    "threads": 2,
+    "gpu_used": false,
+    "affinity": [
+      10,
+      11
+    ],
+    "priority": "BELOW_NORMAL"
+  },
+  "models": [
+    {
+      "architecture": "set",
+      "original_checkpoint_sha256": "0eb8ef1eca6e322f56c4d6161a71572f949579dc3eacdad2f54f620feff518b1",
+      "release_sha256": "e733f50b43aa41f9eccfd219c3b0d2e54f17bcf89a3edfff16fe98c411709708",
+      "tensor_sha256": "664abb5b5aa2d6e40985218a4426b8d2c13d894a37cd4b0490a22d1d1ace1458",
+      "tensor_count": 266,
+      "every_tensor_equal": true,
+      "identical_config": true,
+      "weights_only_load_succeeded": true,
+      "only_public_payload_fields": true
+    },
+    {
+      "architecture": "relational-mlp",
+      "original_checkpoint_sha256": "8ec6e2bf4b37b2a0fa2ef8f57a5d974ffcbfe8e329cf70054a9debed92f403ac",
+      "release_sha256": "a9ddaad09629f508d57c36a0521cbfc1b7395ff85656cc2b04f6d69cc4459d45",
+      "tensor_sha256": "e93456cb49f82f80cf800258ff4846106cf7e45ef4ff9bdd8a020dbf62c840fc",
+      "tensor_count": 300,
+      "every_tensor_equal": true,
+      "identical_config": true,
+      "weights_only_load_succeeded": true,
+      "only_public_payload_fields": true
+    }
+  ]
+}

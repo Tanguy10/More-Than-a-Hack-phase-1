@@ -1,0 +1,80 @@
+{
+  "complete": true,
+  "exact_csv_parity": true,
+  "csv_sha256": "9fa8109359e2417bc1bfd7ea6a19088ca34d6f4f55c56d98e14ff703f9f9360c",
+  "expected_sha256": "9fa8109359e2417bc1bfd7ea6a19088ca34d6f4f55c56d98e14ff703f9f9360c",
+  "native_input_sha256": {
+    "frame_index": "9e5e216ab498a484f23ae5f6cdee81c1e5f838cdd8a1371fd169666cf88059c9",
+    "period": "08a2ee96d5e9ae44d855f6eaca8b0af89aca99e535a059271168ede02625d955",
+    "players_xy": "05287e8daacde1d14588f40e0bf7072220b69432ba385e2dbe079759fb3c8d80",
+    "players_team": "9ff998820d43a6b875957bbef35323693ae5b11d9d3f28fd0e0e802023d6dc39",
+    "players_speed": "49cdb4aafc5824b9b09c1b2cb57863cd688a203407b12019d4252510c03e8315",
+    "ball_xy": "4a743023f7ac709e286818d9d8fe6b3c60ad325e1a5644b7c46f1f71f3ff6057"
+  },
+  "resources": {
+    "threads": 2,
+    "gpu_used": false,
+    "affinity": [
+      10,
+      11
+    ],
+    "priority": "BELOW_NORMAL"
+  },
+  "installed_package": true,
+  "installed_source_sha256": {
+    "cli.py": "c0c4efc406280f4e69761f895d24cf3a671195c5498c0b370726a2fb03085776",
+    "decode.py": "13c9117b9ce97951be780d5ae3ec2c7934392104f66bd8582aa2391d50a26fab",
+    "model.py": "ca4b40d4d95ff7ac900e2b1a23753efe4a2eecb57ecca16eaaafdcec5dc63795",
+    "pipeline.py": "1b2aafdefd9f44d2edd8b9330b6f1873ce64e67acacf8821ab683a248ae0d1af",
+    "relational.py": "5f31a1e67c3f798dcc548dbac1ffa8d9fcf0a110527e20c266c5154bf2a55210",
+    "resources.py": "5a5babbf88e68365ce828f87035fb4be465ba759a7f3c65b92f8d624cbc83e34",
+    "schema.py": "fb67e74243a45e6dd76eb69c39efc0f0fb13dea0bfb42ab0e090cd53d3bf5b28",
+    "segments.py": "5fc31a9a93e84b8b0b2ede4dc039757fa0ba9165fc22b64aa3c8e4b429650e92",
+    "submission.py": "1b3d34f30045d22ee8b17e0b932b7cec20d3765c6268b0a35f38fb72f735a55b",
+    "tracking.py": "85dfdcf2a2f31328e180bbe65fffb5862314d103b16c9c496cefad7900465ccb",
+    "windows.py": "6ce79ab8a3322bdbb0e37e4d9d7490d62c5c693b22d726c2985fea4d0feff201",
+    "__init__.py": "0207d006611be138aab25b27b7613c170e769a8c783ecb01a32a713520d97368",
+    "io/tactical.py": "ed14d16ec557b2f48a1a6c53c5e01e17a1a6f3fe57cbc5209d95a19b71269527",
+    "io/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "_official/games.py": "3b2122794e9e0476e2b3a871d14880e5fa47c4feaeacf99caef054c2309076ce",
+    "_official/LICENSE": "b1f93728571a232a0e158abdd869891f2efd51894134fb20678292c2468ff3ec",
+    "_official/possession_metrics.py": "341bad48904b489d6e875397b27687f5d6a4d22a397f3dc8af3a00d48f16874d",
+    "_official/provenance.json": "ec53ba09df207f5d03bc2cd2adf853030dceef389600d701f3ee69808df1fd53",
+    "_official/validate_submission.py": "07ac29499acbd337e1dc1de1832d63f6e1fa1d981e22f6ad08212529e2bbee14",
+    "_official/__init__.py": "397fb079684e0c660b872655fa292bba1eaba9a65cd483f2ea9c4d7d17deee56"
+  },
+  "cached_evidence_used": false,
+  "target_labels_read": false,
+  "elapsed_seconds": 792.3910000000033,
+  "generation": {
+    "csv_sha256": "9fa8109359e2417bc1bfd7ea6a19088ca34d6f4f55c56d98e14ff703f9f9360c",
+    "rows": 199319,
+    "weights_manifest_sha256": "4740a3a35023046d4237eea3ffc1938f285d06f05397ed825231afd3ea88665b",
+    "runtime": {
+      "torch": "2.6.0+cpu",
+      "numpy": "2.5.4",
+      "platform": "Windows",
+      "precision": "float64",
+      "elapsed_seconds": 781.0,
+      "threads": 2,
+      "gpu_used": false,
+      "affinity": [
+        10,
+        11
+      ],
+      "priority": "BELOW_NORMAL"
+    }
+  },
+  "original_epts": [
+    {
+      "file": "BAR-ATH_tactical_atd.txt",
+      "bytes": 195714285,
+      "sha256": "f130e350d2bfdf734b7e32f072931fccc6d015c1e837d082064875fe0a700431"
+    },
+    {
+      "file": "BAR-ATH_tactical_atd.xml",
+      "bytes": 59057,
+      "sha256": "327e35e32e46a647389b88f883d4f9a2ab931e3e6148aef2fcf8f22b1e93c43a"
+    }
+  ]
+}

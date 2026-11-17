@@ -1,0 +1,4 @@
+# Raccourci vers /Data/.../visu : vidéos du match, à ne jamais publier
+videos
+*.webm
+*.mp4

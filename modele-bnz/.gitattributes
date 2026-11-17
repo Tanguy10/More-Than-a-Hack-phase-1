@@ -1,0 +1,3 @@
+* text=auto eol=lf
+*.pt -text
+src/possession/_official/* -text

@@ -1,0 +1,27 @@
+{
+  "complete": true,
+  "tests": 15,
+  "errors": 0,
+  "failures": 0,
+  "skipped": 0,
+  "seconds": 1.181,
+  "junit_sha256": "09911e9c1f1142609db71c71776d9d440ac06d8a91ed0ced6f3a5cd073a65751",
+  "tests_sha256": {
+    "tests/conftest.py": "ef1118e5600a1912857a29fbbb4e369ef797fd4c48910ff8609215780ef71eb1",
+    "tests/test_c_release.py": "1be78bee6a7d7e3bdcfef370ba39accb37f3dec6898a7f7860ff1c65192f811d",
+    "tests/test_contracts.py": "bc83de40ff46c5ae298153826a1ed5c354a5c7d8c71247814212835a649f628b",
+    "tests/test_official_integrity.py": "0df179b490caa556c38f77baa702a6149570d5a6982fa56d8f4194abc8fd770d",
+    "tests/test_tactical.py": "852768587104abcac04ba11ccae2d190095308bc05bc265d00fc11d5053d1acf"
+  },
+  "versions": {
+    "torch": "2.6.0+cpu",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "numba": "0.68.0",
+    "pandas": "3.1.0",
+    "kloppy": "3.19.1",
+    "lxml": "6.1.3",
+    "pytest": "9.1.1"
+  },
+  "resource_policy": "At most two allowed logical CPUs, BELOW_NORMAL, numerical threads2, CUDA disabled before numerical imports."
+}
