@@ -15,7 +15,7 @@ The CSV contains 199,319 labels, SHA256 `9fa8109359e2417bc1bfd7ea6a19088ca34d6f4
 
 Development Spell F1 is 0.693163 for C and 0.693188 for the reference, across six reused matches and three conditions. C improves the severe-condition average; the reference leads on clean input. We do not claim a statistically established overall improvement or know the private target score. [Experiments](model-c/docs/EXPERIMENTS.md) explain what worked, what failed and the limits of these comparisons.
 
-`modele-bnz/` preserves the previous reference as a **fallback**, not the selected upload. Its historical reports describe the earlier release decision. `Modele 1 Tanguy/` and `model-2/` preserve earlier team work. Restricted inputs are excluded. The organisers' metric and instructions remain at the repository root.
+`modele-bnz/` preserves the previous reference as a **fallback**, not the selected upload. Its historical reports describe the earlier release decision. `Modele 1 Tanguy/` preserve earlier team work. Restricted inputs are excluded. The organisers' metric and instructions remain at the repository root.
 
 ---
 
